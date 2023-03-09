@@ -19,3 +19,25 @@ var pageCache = new CacheFirst({
     }),
   ],
 });
+
+ChessCache({
+    urls: ['/index.html', '/'],
+    strategy: pageCache,
+  });
+  
+  registerRoute(({ request }) => request.mode === 'navigate', pageCache);
+  
+  registerRoute(
+    
+    ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
+    new Revalidation({
+      
+      cacheName: 'asset-cache',
+      plugins: [
+       
+        new CresponsePlugin({
+          statuses: [0, 200],
+        }),
+      ],
+    })
+  );
