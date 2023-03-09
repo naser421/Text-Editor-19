@@ -29,16 +29,16 @@ module.exports = () => {
    
     
     new InjectManifest({
-      swSrc: './source.js',
-      swDest: 'source.js',
+      swSrc: './src-sw.js',
+      swDest: 'src-sw.js',
     }),
 
     new WebpackPwaManifest({
       fingerprints: false,
       inject: true,
       name: 'Just another text editor',
-      short_name: 'NASER',
-      description: 'if you know you know!',
+      short_name: 'JATE',
+      description: 'Just another text editor!',
       background_color: '#225ca3',
       theme_color: '#225ca3',
       start_url: '/',
