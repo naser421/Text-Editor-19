@@ -3,13 +3,13 @@
     --gray: red;
     --whitesmoke: white;
     --dark:blue;
-    --monoaki: green;
+    --cool: green;
     --navbar-height: 40px;
   }
 
   body {
     margin: 0;
-    background-color: var(--monoaki);
+    background-color: var(--cool);
     font-family: system-ui, -apple-system, 'Helvetica',
       sans-serif;
   }
