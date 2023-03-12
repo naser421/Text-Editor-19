@@ -26,6 +26,6 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^5.2.0"
     }
 }
