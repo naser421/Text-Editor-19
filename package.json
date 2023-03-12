@@ -23,7 +23,7 @@
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^5.2.0", 
     "webpack": "^5.76.1"
   }
 }
