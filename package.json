@@ -22,7 +22,8 @@
       "nodemon": "^2.0.4",
       "if-env": "^1.0.4" 
     },
-    "devDependencies": {
-      "concurrently": "^5.2.0"
-    }
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "webpack": "^2.2.1"
+  }
   }
