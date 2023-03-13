@@ -33,7 +33,7 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('GET from the database');
   
-  const jate_DataDb = await openDB('jate', 1);
+  const jate_DataDb = await openDB('jate', 1); 
   
   const tx = jate_DataDb.transaction('jate', 'readonly');
 
